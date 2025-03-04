@@ -1,0 +1,79 @@
+.commitment-right-div h1 {
+    color: white;
+    /* border-bottom: 2px solid #f8ae27; */
+    /* width: 85%; */
+    text-decoration: underline;
+    /* text-decoration-color: #f8ae27; */
+    text-decoration-color: red;
+}
+
+.commitment-right-div h2 {
+    color: #f8ae27;
+}
+
+.commitment-right-div p {
+    color: white;
+}
+
+section.commitment {
+    /* background: black; */
+    /* background: url("http://localhost:3000/static/media/splash%202%201.a546f1a457a9f827e7ba.png") left bottom no-repeat, black right bottom no-repeat; */
+    background-position: right;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 4%;
+}
+
+.commitment-right-div {
+    margin-top: 20%;
+}
+
+section.commitment {
+    background: #141414;
+}
+
+.commitment-left-div img {
+    width: 75%;
+    margin-left: 10%;
+}
+
+@media (max-width: 600px) {
+    .commitment-right-div h1 {
+        /* width: 87%; */
+        font-size: 25px;
+        text-align: center;
+    }
+
+    section.commitment {
+        background: none;
+        padding-top: 50px;
+    }
+
+    .commitment-right-div h2 {
+        color: #f8ae27;
+        text-align: center;
+    }
+
+    .commitment-right-div p {
+        color: white;
+        text-align: center;
+    }
+
+    .commitment-right-div {
+        margin-top: 10%;
+    }
+
+    .commitment-left-div img {
+        width: 80%;
+        display: none;
+        margin-left: 10%;
+    }
+}
+
+@media(min-width: 1367px) {
+    .commitment-left-div img {
+        margin-left: -32%;
+        width: 87%;
+        float: left;
+    }
+}

@@ -1,0 +1,102 @@
+.tradition-left-div img {
+  width: 80%;
+  float: right;
+  border-radius: 15px;
+  margin-right: 0;
+  height: 426px;
+}
+
+section.tradition {
+  background: url("E:/my-app/public/assets/images/About-us/about-us-1200.webp") left bottom no-repeat,
+    #141414 left top repeat;
+  padding-top: 70px;
+}
+
+section.tradition::after {
+  content: "";
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+h1.tradition-header {
+  font-family: Forum, serif;
+  color: white;
+  /* border-bottom: 2px solid #f8ae27; */
+  /* width: 53%; */
+  text-decoration: underline;
+  /* text-decoration-color: #f8ae27; */
+  text-decoration-color: red;
+}
+
+h2.tradition-sub-header {
+  color: #f8ae27;
+  font-weight: 400;
+}
+
+.tradition-right-div p {
+  color: white;
+  text-align: left;
+}
+
+.tradition-right-div {
+  margin-top: 19%;
+}
+
+img.tradition-left-image-2 {
+  position: absolute;
+  float: right;
+  right: -363px;
+  width: 50%;
+  margin-top: 44%;
+  opacity: 0.4;
+}
+
+@media (max-width: 600px) {
+  .tradition-right-div {
+    margin-top: 0;
+  }
+
+  h1.tradition-header {
+    /* width: 55%; */
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .tradition-left-div img {
+    width: 80%;
+    float: none;
+    margin: 0px 10%;
+  }
+
+  img.tradition-left-image-2 {
+    display: none;
+  }
+
+  h2.tradition-sub-header {
+    color: #f8ae27;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .tradition-right-div p {
+    color: white;
+    text-align: center;
+  }
+
+  section.tradition {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 1367px) {
+  img.tradition-left-image-2 {
+    width: 42%;
+    float: right;
+    margin-right: -171px;
+  }
+}

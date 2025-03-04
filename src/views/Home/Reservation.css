@@ -1,0 +1,211 @@
+h1.reservation-image-header {
+    text-align: center;
+    color: white;
+    font-family: auto;
+    /* border: 1px solid red; */
+    padding-top: 15px;
+    padding-bottom: 7px;
+    /* margin: 45px 10%; */
+    /* border-bottom: 2px solid #f8ae27; */
+    text-decoration: underline;
+    /* text-decoration-color: #f8ae27; */
+    text-decoration-color: red;
+    padding-top: 62px;
+}
+
+.reservation-image img {
+    width: 50%;
+    margin: 7% 25%;
+}
+
+h1.reservation-image-header-1 {
+    text-align: center;
+    color: white;
+    font-family: auto;
+    /* border: 1px solid red; */
+    padding-top: 15px;
+    padding-bottom: 7px;
+    /* margin: 15px 23%; */
+    margin-top: 44px;
+    /* border-bottom: 2px solid #f8ae27; */
+    text-decoration: underline;
+    /* text-decoration-color: #f8ae27; */
+    text-decoration-color: red;
+}
+
+.reservation p {
+    display: flex;
+    /* margin: 0px 17%; */
+    color: white;
+}
+
+section.reservation-section {
+    background-color: #141414;
+}
+
+input.form-name {
+    border: 1px solid #1b1c1e;
+    background: #1b1c1e;
+    padding-left: 26px;
+    padding-right: 15px;
+    width: 100%;
+    padding-top: 10px;
+    color: white !important;
+    padding-bottom: 10px;
+}
+
+input.form-email {
+    border: 1px solid #1b1c1e;
+    background: #1b1c1e;
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-left: 62px; */
+}
+
+.form-second-div svg {
+    color: white;
+    background: #1b1c1e;
+    height: 45px;
+    margin-top: -5px;
+    padding-left: 12px;
+    width: 32px;
+}
+
+.form-second-div select {
+    border: 1px solid #1b1c1e;
+    background: #1b1c1e;
+    padding-left: 22px;
+    padding-right: 44px;
+    /* width: 102%; */
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.form-second-div {
+    margin-top: 25px;
+}
+
+input[type="date"] {
+    border: 1px solid #1b1c1e;
+    background: #1b1c1e;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: 125%; */
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    /* margin-left: 45px; */
+}
+
+textarea {
+    height: 122px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #1b1c1e;
+    background: #1b1c1e;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: 125%; */
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    /* background: #f8ae27;
+    border: 1px solid #f8ae27; */
+    background: red;
+    border: 1px solid red;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+input.form-name::placeholder {
+    color: white;
+}
+
+input.form-email::placeholder {
+    color: white;
+}
+
+.Toastify__toast-container.Toastify__toast-container--top-right {
+    margin-top: 5%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color-scheme: dark;
+}
+
+/**** Media Query ****/
+
+@media (max-width : 600px) {
+    .reservation p {
+        display: block;
+        text-align: center;
+    }
+
+    input.form-name {
+        width: 100%;
+    }
+
+    input.form-email {
+        width: 100%;
+        /* margin-left: 13px; */
+        margin-top: 20px;
+    }
+
+    input[type="date"] {
+        width: 100%;
+        margin-left: -1px;
+        margin-top: 5%;
+    }
+
+    label.label-select-time {
+        margin-left: 0 !important;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .form-second-div select {
+        width: 90% !important;
+    }
+
+    label.laebl-date {
+        width: 100%;
+    }
+
+    label.grape-label {
+        width: 100%;
+    }
+
+    .reservation h6 {
+        text-align: center;
+    }
+
+    /* h1.reservation-image-header-1 {
+        margin: 15px 17%;
+    } */
+}
+
+@media (min-width: 1024px) and (max-width: 1367px) {
+    section.reservation-section {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    section.reservation-section {
+        margin-top: 11%;
+    }
+}

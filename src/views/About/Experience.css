@@ -1,0 +1,46 @@
+.experience-left-div h1 {
+    color: white;
+    margin-top: 25%;
+    /* border-bottom: 2px solid #f8ae27; */
+    /* width: 97%; */
+    text-decoration: underline;
+    /* text-decoration-color: #f8ae27; */
+    text-decoration-color: red;
+}
+
+.experience-left-div h2 {
+    color: #f8ae27;
+}
+
+.experience-left-div p {
+    color: white;
+}
+
+section.experience {
+    margin-top: -70px;
+    background-color: #141414;
+}
+
+@media (max-width: 600px) {
+    .experience-left-div h1 {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    section.experience {
+        margin-top: -30px;
+        background-color: #141414;
+    }
+
+    .experience-left-div h2 {
+        color: #f8ae27;
+        text-align: center;
+    }
+
+    .experience-left-div p {
+        color: white;
+        text-align: center;
+    }
+}

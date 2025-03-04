@@ -1,0 +1,97 @@
+h1.fun-header {
+    text-align: center;
+    color: white;
+    font-family: auto;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    /* margin: 23px 38%; */
+    /* border-bottom: 2px solid #f8ae27; */
+    text-decoration: underline;
+    text-decoration-color: #f8ae27;
+}
+
+section.fun-section {
+    background-color: #141414;
+    padding-top: 2%;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.fun-section::after {
+    content: "";
+    background: #0d0c0c;
+    min-height: 100vh;
+    width: 50%;
+    top: 0;
+    z-index: 11;
+    height: 100%;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+
+.fun-section::before {
+    content: "";
+    background: #0d0c0c;
+    min-height: 100vh;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: 11;
+    height: 100%;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+
+.fun-section.header-scrolled::before {
+    width: 0%;
+    transition: 2s ease-in-out;
+}
+
+.fun-section.header-scrolled::after {
+    width: 0%;
+    transition: 2s ease-in-out;
+}
+
+.fun-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fun-images {
+    height: 300px;
+    overflow: hidden;
+}
+
+.fun-images img {
+    transition: transform .5s, filter 0.5s ease-in-out;
+}
+
+.fun-images:hover img {
+    transform: scale(1.1);
+}
+
+/**** Media Query ****/
+
+@media (max-width : 600px) {
+
+    /* h1.fun-header {
+        margin: 45px 22%;
+    } */
+    .fun-images {
+        height: 250px;
+    }
+
+    .fun-images img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .fun-images.shine {
+        margin-bottom: 5%;
+    }
+}
